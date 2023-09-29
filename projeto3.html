@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição em Evento</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <style>
+        .div-com-espacamento{
+            margin-top: 20px;
+        }   
+    </style>
+    <nav class="blue darken-3 mt-5">
+        <center><h1>Página de Inscrição em Evento</h1></center>
+    </nav>
+    <div class="container div-com-espacamento">
+        <center>
+            <form>
+                Nome:
+                    <div>
+                        <input type="text" placeholder="Digite seu nome" required>   
+                    </div>
+                E-mail:
+                    <div>
+                        <input type="text" placeholder="Digite seu email : seuemail@gmail.com" required>
+                    </div>
+                Número para Contato:
+                    <div>
+                            <input type="text" placeholder="Digite seu número: +55 (81)9912-5003" required>
+                    </div>
+                Escolha Participação:
+                    <p>
+                        <label>
+                            <input type="radio" class="with-gap" name="group1" required/>
+                            <span>Palestrante</span>
+                        </label>
+                    </p>
+                    <p>
+                    <label>
+                        <input type="radio" class="with-gap" name="group1" required/>
+                        <span>Participante</span>
+                        </label>
+                    </p>
+                    <br>
+                    <input type="submit" value="Enviar" class="btn waves-effect blue darken-4'">
+            </form>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        </center>
+    </div>
+</body>
+</html>
